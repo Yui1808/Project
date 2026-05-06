@@ -1,0 +1,311 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* navbar styling */
+
+.navbar{
+    width: 100vw;
+    height: 86px;
+    display: flex;
+    background-color:white;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    margin-bottom: 100px;
+    position:fixed;
+    
+    
+    
+}
+
+
+.logo{
+    padding-right: 40px;
+    height:86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #CCCCCC;
+}
+
+/* inside navbar styling address */
+
+.address{
+    display: flex;
+    font-size: 13px;
+}
+
+/* styling location */
+.location{
+    width: max-content;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-left: 70px; */
+    
+}
+.location > :nth-child(1){
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* styling iside search bar  & searchbar*/
+
+.searchbar{
+    width: 700px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+
+}
+
+/* Icon */
+.icon{
+    font-size: 20px;
+    border: none;
+    /* margin-right:4px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* search */
+
+.searchbar input{
+       width: 640px;
+       height: 46px;
+       border: none;
+       background-color: #F8F8F8;
+       border-radius: 10px;
+}
+
+/* Account */
+
+.account{
+    height: 86px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    /* margin-left: 30px; */
+}
+
+.mycart{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    background-color: #CCCCCC;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* margin-right: 10px; */
+}
+
+.div-flex{
+   
+    display: flex ;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+/* Heo section */
+
+.hero-section{
+    padding-top:86px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.hero-wrap{
+   
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    
+}
+
+.hero-wrap img{
+    width:70vw;
+}
+
+.img-flex{
+    
+    padding-left: 13px;
+    display: flex;
+    align-items: center;
+    
+    gap:20px;
+    
+
+}
+.img-flex img{
+    width:18vw;
+}
+
+.product-img{
+
+    display: flex;
+
+
+}
+
+.img-p img{
+    width:7vw;
+}
+
+
+.img-c{
+    width: 179px;
+}
+
+
+
+
+
+/* styling cards */
+.scroll{
+    
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+    
+}
+
+.main-wrap-for-cards{
+    width:70vw;
+    padding: 4px 0px;
+    display: flex;
+   
+    gap: 20px;
+  
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+
+.headings-wrap{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+
+
+
+/* cards inside */
+
+.dairy-cat{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.see-all{
+    width: max-content;
+    border: none;
+    color: rgb(26, 145, 26);
+    background-color: white;
+    font-size: 20px;
+}
+
+
+.cards{
+    min-width: 170px;
+    height:220px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 3px rgb(227, 226, 226);
+    
+    border: 1px solid #d0cfcf;
+    border-radius: 10px;
+
+}
+
+.img-flex2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+.cd-img{
+    width: 6vw;
+}
+
+.details-wrap{
+    padding: 0px 12px;
+}
+.timer{
+    margin-bottom: 5px;
+    width: max-content;
+    font-size: 9px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+}
+
+.card-title{
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.card-title-type2{
+     font-size: 13px;
+    margin-bottom: 28px;
+}
+
+.mes{
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+.price{
+    font-size: 12px;
+    margin-top: 10px;
+    
+}
+.add-btn{
+    width: 40px;
+    height:20px;
+    border: 1px solid rgb(12, 136, 12);
+    border-radius:5px;
+    color: rgb(12, 136, 12);
+    background-color: rgba(150, 214, 150, 0.152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-btn{
+    display: flex;
+    
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
