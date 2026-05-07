@@ -11,6 +11,7 @@
     width: 100vw;
     height: 86px;
     display: flex;
+    
     background-color:white;
     align-items: center;
     justify-content: space-around;
@@ -308,4 +309,101 @@
 }
 
 
+.lcontainer{
+    padding:20px;
+    width: max-content;
+    height: 390px;
+}
+.use-heading{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
 
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color:#666666;
+    font-size: 14px;
+}
+
+.useful-links{
+    display: flex;
+    gap :100px;
+    
+}
+.use-headings{
+    padding-bottom: 20px;
+    display: flex;
+    gap :30px;
+}
+.use-headings p{
+    color:rgb(32, 131, 32);
+    font-size: 16px;
+   
+
+}
+
+.catagoriesQ{
+    display: flex;
+    gap: 150px;
+}
+
+.rcontainer{
+    width:max-content;
+    height: 390px;
+    padding:20px;
+    width: 40vw;
+    height: 390px;
+}
+
+.l-r-container{
+    padding-top: 50px;
+    height:500px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+    
+
+}
+.licens{
+    font-size: 12px;
+    color: #666666;
+}
+.download{
+    font-size:14px;
+    color: #040404;
+}
+
+.li img{
+    width: 92px;
+}
+
+.li i{
+    font-size: 40px;
+}
+
+
+.po{
+    font-size: 14px;
+    color:#666666;
+    padding: 20px;
+    
+}
+
+.iconss{
+    display: flex;
+    gap:10px;
+}
